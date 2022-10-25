@@ -1,0 +1,25 @@
+﻿<Window x:Class="dz_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dz_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="aboba">
+        <Label Content="Проверка таблицы умножения" HorizontalAlignment="Left" Margin="212,29,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Showcard Gothic" FontWeight="Bold"/>
+        <TextBox x:Name="a" HorizontalAlignment="Left" Height="23" Margin="258,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" IsReadOnly="True"/>
+        <TextBox x:Name="b" HorizontalAlignment="Left" Height="23" Margin="311,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28" IsReadOnly="True"/>
+        <Label Content="*" HorizontalAlignment="Left" Margin="290,105,0,0" VerticalAlignment="Top" Width="16" RenderTransformOrigin="19.75,0.423"/>
+        <Label Content="Сколько будет" HorizontalAlignment="Left" Margin="159,102,0,0" VerticalAlignment="Top" Width="94" RenderTransformOrigin="19.75,0.423"/>
+        <Label Content="Кол-во верных ответов:" HorizontalAlignment="Left" Margin="472,339,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="Button4" Margin="0,206,64,0" VerticalAlignment="Top" Click="Button4_Click" HorizontalAlignment="Right" Width="75" TabIndex="0" Content="Сейчас"/>
+        <Button x:Name="Button3" Margin="453,206,264,0" VerticalAlignment="Top" Click="Button3_Click" TabIndex="0" Content="Прямо"/>
+        <Button x:Name="Button2" HorizontalAlignment="Left" Margin="264,206,0,0" VerticalAlignment="Top" Width="75" Click="Button2_Click" TabIndex="0" Content="Себя" />
+        <Button x:Name="Button1" HorizontalAlignment="Left" Margin="64,206,0,0" VerticalAlignment="Top" Width="75" Click="Button1_Click" TabIndex="0" Content="Проверь" />
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="17" Margin="728,349,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="49" IsReadOnly="True" Text="0"/>
+        <TextBox x:Name="Otvet" HorizontalAlignment="Left" Height="37" Margin="28,370,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" IsReadOnly="True"/>
+        <Label Content="Кол-во неверных ответов:" HorizontalAlignment="Left" Margin="472,370,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Height="17" Margin="728,383,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="49" IsReadOnly="True" Text="0"/>
+    </Grid>
+</Window>
